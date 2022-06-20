@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "464077244668",
+    "project_id": "filmbase-71578",
+    "storage_bucket": "filmbase-71578.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464077244668:android:1443222ec68f0d779cef79",
+        "android_client_info": {
+          "package_name": "com.example.filmbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464077244668-n7vonrur9h4uphevs29oue8d5dtd4bka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeXLk_oLXclamt_bI4ldwzKMFSl3_7UoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464077244668-n7vonrur9h4uphevs29oue8d5dtd4bka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

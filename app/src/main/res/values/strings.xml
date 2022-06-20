@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FilmBase</string>
+    <string name="log_in_to_filmbase">Log in to FilmBase</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="register_to_filmbase">Register to FilmBase</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec condimentum ante, quis mattis mi. Proin ut rhoncus libero, ac euismod neque. Ut suscipit, enim a facilisis consequat, orci lacus venenatis orci, at ultricies orci nulla sed ex. In condimentum viverra velit, eget feugiat libero imperdiet vel. Aenean pretium, lectus vitae bibendum bibendum, diam turpis convallis eros, quis tristique leo sapien at ipsum. Praesent eu odio id nulla lobortis auctor. Donec eget dolor eget nisl euismod commodo vel a lacus. Quisque ut justo vitae urna pharetra accumsan. Etiam dignissim neque iaculis mauris viverra, blandit rhoncus odio porttitor. Phasellus nibh arcu.</string>
+    <string name="status">Status:</string>
+    <string name="change_status">Change status</string>
+    <string name="delete">Delete</string>
+    <string name="slash">/</string>
+    <string name="all">All</string>
+    <string name="show_me">Show me:</string>
+    <string name="seen">Seen</string>
+    <string name="not_seen">Not seen</string>
+    <string name="add_more_films">Add more films</string>
+    <string name="add_to_my_library">Add to my library</string>
+    <string name="log_out">Log out</string>
+</resources>

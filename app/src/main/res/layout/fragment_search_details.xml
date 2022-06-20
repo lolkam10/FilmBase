@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/background_color"
+        app:cardElevation="6dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="10dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/iv_posterS"
+                android:layout_width="@dimen/picture_width"
+                android:layout_height="@dimen/picture_height"
+                android:scaleType="fitXY"
+                android:layout_marginHorizontal="5dp"
+                app:srcCompat="@drawable/filmbase_logo_transpoarent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_titleS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/secondary_text"
+                    android:textStyle="bold"
+                    android:text="Title"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/tv_yearS"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/secondary_text"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="3dp"
+                    android:text="2020"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_genreS"
+                    android:textColor="@color/secondary_text"
+                    android:layout_marginBottom="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Genre"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_actorsS"
+                    android:textColor="@color/secondary_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Actors"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/tv_plotS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/secondary_text"
+                android:text="@string/lorem"
+                android:textSize="16sp" />
+
+        </ScrollView>
+
+
+        <Button
+            android:id="@+id/bt_add_to_library"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/add_to_my_library"
+            android:layout_marginHorizontal="24sp"
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
